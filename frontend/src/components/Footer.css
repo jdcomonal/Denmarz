@@ -1,0 +1,141 @@
+footer {
+    /* margin-top: 20px; */
+    /* width: 100%; */
+    width: 100vw;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+
+    background-color:var(--color-dirtyWhite);  
+    /* color: #333; */
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer__contact p,
+.footer__workingHour p {
+    font-size: 13px;
+}
+
+footer p {
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.footer__Flex-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer__div-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+
+    width: 300px;
+    /* min-width: 150px; */
+}
+
+.footer_copy {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer svg {
+    font-size: 15px;
+    margin-right: 5px;
+    color: var(--color-red);
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.footer__button {
+    /* letter-spacing: .5px; */
+    font-weight: bold;
+    font-family: var(txt__fontbase);
+    background-color: var(--color-red);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer__button:hover {
+    color: var(--color-red);
+    background-color: white;
+}
+
+@media screen and (max-width:1000px){
+    .footer__Flex-row{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer__div-logo{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+
+    .footer__contact ,
+    .footer__workingHour {
+    /* background: #00000080; */
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+    }
+}
+@media screen and (max-width:735px){
+    .footer__Flex-row{
+        flex-direction: column;
+    }
+    .footer__div-logo{
+       
+        flex-direction: column;
+       
+    }
+    .footer__contact ,
+    .footer__workingHour {
+    /* background: #00000080; */
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+    }
+}

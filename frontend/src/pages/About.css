@@ -1,0 +1,88 @@
+.div__welcome{
+    
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../img/freshly-baked-pizza-with-mozzarella-salami-generated-by-ai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 45vh;
+    background-blend-mode: darken;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.div__welcome h1{
+ color: var(--color-white);
+ font-size: 45px;
+ margin: 10px 0;
+ 
+}
+.div__welcome p{
+    width: 60%;
+    color: var(--color-white);
+    text-shadow: 5px 5px 4px #202020;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+}
+.div__Our-Story, .div__Our-Promise{
+    margin: 50px;
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    
+}
+ .div__Our-Commitment{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../img/11715.jpg);
+    background-blend-mode: darken;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 50px;
+    display: flex;
+    /* background-color: var(--color-dirtyWhite); */
+    flex-wrap: wrap;
+    
+}
+.div__Our-Commitment h2,.div__Our-Commitment p{
+    color: white !important;
+}
+.img-ctrl{
+    width: 40%;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #ccc;
+    overflow: hidden;
+}
+.txt_content{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.txt_content h2{
+    color: var(--color-red);
+}
+
+.txt_content p{
+    margin: 20px 0;
+    /* font-size: 18px; */
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 0 30px;
+    line-height: 25px;
+}

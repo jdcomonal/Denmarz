@@ -1,0 +1,22 @@
+/* .Container__menu{
+    background-color: var(--color-dirtyWhite);
+} */
+.MenuHeader{
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../img/11715.jpg);
+    background-blend-mode: darken;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    /* height: 100px; */
+    padding: 30px 0;
+    margin: 0 0 10px 0;
+}
+.Container__menu h1{
+    color: var(--color-white);
+}

@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+:root {
+  --font-base: Montserrat;
+  --font-alt: 'Open Sans', sans-serif;
+  /* --font-alt: Arial; */
+  
+  --color-red: #EA1010;
+  --color-black : #0C0C0C;
+  --color-yellow: #fc9d0e;
+  --color-dirtyWhite:#f0f0f0;
+  --color-white: #FFFFFF;
+
+  --bodyColor: #FFFFFF;
+}
+
+
+
+
+

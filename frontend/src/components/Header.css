@@ -1,0 +1,130 @@
+.header__navbar-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.header__navbar-logo{
+    overflow: hidden;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.header__navbar, .header__navbar ul{
+    display: flex;
+    flex-direction: row ;
+    justify-content:  space-between;
+    align-items: center;
+    /* background: #00000083; */
+}
+ul{
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
+    margin: 0 10px;
+}
+a{
+    color:unset;
+    text-decoration: none;
+    font-weight: bold;
+    /* filter: drop-shadow(10px 4px 6px rgba(241, 238, 238, 0.1)); */
+}
+.active  {
+    color: var(--color-red) !important;
+    font-weight: bold;
+    /* border-bottom: solid 2px var(--color-red);  */
+}
+.header__icon{
+    font-size: 25px;
+    /* color:  */
+}
+.header__icon:hover{
+    color: var(--color-red);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 5px 40px;
+    /* background-color: rgba(36, 35, 35, 0.664); */
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 2;
+}
+  
+.scrolling {
+   
+    background-color: var(--color-white);
+    box-shadow: 3px 3px 3px #4d4d4dad;
+}
+
+
+.counter{
+    position:absolute;
+    top:18px;
+    right: 38px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+} 
+.header__icon:hover .counter{
+    color:var(--color-red);
+    background-color: var(--color-white);
+    border: 1px solid #ccc;
+
+}
+.nav__Fabar{
+    display: none;
+}
+.nav__overlay{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+
+    color: var(--color-white);
+    background-color: rgba(0, 0, 0, 1);
+    
+    transition: .5s ease;
+    z-index: 5;
+
+}
+.nav__overlay ul{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    /* margin-top: 30px; */
+    margin: 20vh 0;
+}
+.nav__overlay li{
+    margin:10px 0;
+}
+.nav__Fabar-overlay{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+.none{  
+    display: none;
+}
+
+@media screen and (min-width:2000px){
+    
+}
+@media screen and (max-width:1000px){
+    .nav__links{
+        display: none !important;
+    }
+    .nav__Fabar{
+        display: inline-block;
+    }
+}
